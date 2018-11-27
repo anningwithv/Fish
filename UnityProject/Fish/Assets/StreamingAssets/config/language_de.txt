@@ -1,0 +1,30 @@
+﻿ID	Key
+string	string
+Id	Key
+Day	:
+Hours	:
+Minute	:
+Second	
+UI_EARNED	erlangen
+UI_AWAY	Wenn du gegangen bist
+UI_COLLECT	sammeln
+UI_DoubleCollect	sammeln x 2-5
+UI_BONUS	Einsatz
+UI_CLOSE	zumachen
+UI_LEVELUP	Upgrade
+UI_LEVEL	Niveau
+Ultima	Ultimativ
+Super	Super
+RtaSpeed	Drehen
+Velocity	Bewerten
+Tooth	Zähne
+Gravity	Schwerkraft 
+BallCount	Stern 
+FanForce	Windkraft 
+FanRatio	Wind-Rate
+Lucky	Glück
+Durable	haltbar
+UI_DoubleTapTitle	Technologie
+UI_TAPTIPS	Klicken Sie auf dem Bildschirm für die zusätzliche Ausgabe 15 Sekunden
+UI_UseTap	Verwendung
+UI_DOUBLETAP	Technologie

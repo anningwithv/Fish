@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f42260c927381754d8514045c9253410
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: 064-CAI978
+  fontNames:
+  - 064-CAI978
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: res/foldermode/font.bundle
+  assetBundleVariant: 

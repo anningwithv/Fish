@@ -1,0 +1,31 @@
+{
+    "group": "Bugly",
+    "libs": [
+    			"libz.dylib", 
+    			"libc++.dylib"
+    		],
+    "frameworks": [
+	 				"SystemConfiguration.framework",
+    				"Security.framework",
+                    "JavaScriptCore.framework"
+    			  ],
+    "headerpaths": [],
+    "files":   [
+    				"Bugly/Bugly.framework",
+                	"Bugly/BuglyBridge/libBuglyBridge.a",
+                	"Bugly/BuglyBridge/BuglyBridge.h"
+                ],
+    "folders": [],    
+    "excludes": ["^.*.meta$", "^.*.mdown$", "^.*.pdf$"],
+    "compiler_flags": [],
+    "linker_flags": [
+    					"-ObjC"
+    				],
+	"plist": {
+	      "NSAppTransportSecurity" : {
+		      "NSAllowsArbitraryLoads" : true
+		  }
+	}
+
+
+}

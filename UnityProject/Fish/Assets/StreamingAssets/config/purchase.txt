@@ -1,0 +1,9 @@
+﻿ID	类型	是不是消耗品	价格	购买数量	苹果ID	安卓ID
+string	int	bool	int	int	string	string
+Id	ItemID	IsConsume	Price	ItemNum	IOSKey	AndroidKey
+p1	1	1	99	50	DiamondPack1	io.liongame.mergeship.diamondpack1
+p2	1	1	499	300	DiamondPack2	io.liongame.mergeship.diamondpack2
+p3	1	1	999	700	DiamondPack3	io.liongame.mergeship.diamondpack3
+p4	1	1	1999	1500	DiamondPack4	io.liongame.mergeship.diamondpack4
+p5	1	1	4999	4200	DiamondPack5	io.liongame.mergeship.diamondpack5
+p6	1	1	9999	9250	DiamondPack6	io.liongame.mergeship.diamondpack6

@@ -1,0 +1,30 @@
+﻿ID	Key
+string	string
+Id	Key
+Day	:
+Hours	:
+Minute	:
+Second	
+UI_EARNED	receber
+UI_AWAY	Quando saíres
+UI_COLLECT	Coleção
+UI_DoubleCollect	Coleção x 2-5
+UI_BONUS	Bônus
+UI_CLOSE	Fechar
+UI_LEVELUP	elevação
+UI_LEVEL	categoria
+Ultima	ultimate
+Super	Super
+RtaSpeed	Rotação
+Velocity	Andamento
+Tooth	engrenagem
+Gravity	gravitação
+BallCount	estrelas
+FanForce	O Vento
+FanRatio	Taxa
+Lucky	fortuna
+Durable	Durável
+UI_DoubleTapTitle	A tecnologia
+UI_TAPTIPS	Carregue no ecrã para produzir mais 15 segundos do produto
+UI_UseTap	utilização
+UI_DOUBLETAP	A tecnologia

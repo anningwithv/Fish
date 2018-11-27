@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1251561438
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 802d4a799bd9c0bbc5d39a214f1021fb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7dfb045827e1bc42b15dd84b6536b54c
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a3bdb2cd68f901469e7cc149151eb49, type: 3}
+Assets:
+- Assets/Res/FileMode/Scenes/PostEffect.asset
+Dependencies: []

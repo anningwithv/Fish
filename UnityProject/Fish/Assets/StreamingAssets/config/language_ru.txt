@@ -1,0 +1,31 @@
+﻿ID	Key
+string	string
+Id	Key
+Ads_Not_Ready	Album
+Day	
+Hours	:
+Minute	:
+Second	
+UI_EARNED	получил
+UI_AWAY	Когда ты уезжал
+UI_COLLECT	собирать
+UI_DoubleCollect	собирать X 2-5
+UI_BONUS	бонус
+UI_CLOSE	закрытие
+UI_LEVELUP	Классподъем
+UI_LEVEL	класс
+Ultima	сверх
+Super	супер
+RtaSpeed	оборотов
+Velocity	скорость
+Tooth	зубья
+Gravity	тяжести
+BallCount	звезды
+FanForce	Энергия
+FanRatio	ветра
+Lucky	повезло
+Durable	стойкий
+UI_DoubleTapTitle	Научно -
+UI_TAPTIPS	Нажмите на экран дополнительные мероприятия продукт 15 секунд
+UI_UseTap	использование
+UI_DOUBLETAP	Научно -

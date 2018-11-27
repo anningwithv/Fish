@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 220241752
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a242e2d6ff7b175ba7d26ee6637b3018
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6370d3f9de9eca57f523bce048404a46
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/FolderMode/Shader/Default/CutOut.shader
+- Assets/Res/FolderMode/Shader/Default/Fire.shader
+- Assets/Res/FolderMode/Shader/Default/PTGuideShader.shader
+- Assets/Res/FolderMode/Shader/Default/PTMask.shader
+- Assets/Res/FolderMode/Shader/Default/PTGray.shader
+Dependencies: []

@@ -1,0 +1,3 @@
+﻿ID	Type	RewardGold	描述性的	Condition1	Title	Condition2
+int	int	int	string	int	int	int
+Id	Group	RewardGold	Describe	Condition1	Title	Condition2

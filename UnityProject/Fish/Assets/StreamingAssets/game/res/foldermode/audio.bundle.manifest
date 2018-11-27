@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 2344931051
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fbb21c88374336d01c526e58bc1974f7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/FolderMode/Audio/Sound_RecycleShip.wav
+- Assets/Res/FolderMode/Audio/Sound_TabSwitch.wav
+- Assets/Res/FolderMode/Audio/Sound_Seagull2.wav
+- Assets/Res/FolderMode/Audio/Sound_MonsterAppear.wav
+- Assets/Res/FolderMode/Audio/Sound_PutBoatOnSea.wav
+- Assets/Res/FolderMode/Audio/Sound_PlayerLevelUp.wav
+- Assets/Res/FolderMode/Audio/Sound_Warning.wav
+- Assets/Res/FolderMode/Audio/Sound_MonsterHurt.wav
+- Assets/Res/FolderMode/Audio/Sound_MonsterFlee.wav
+- Assets/Res/FolderMode/Audio/Sound_Hit.wav
+- Assets/Res/FolderMode/Audio/Sound_SeaAtmosphere.wav
+- Assets/Res/FolderMode/Audio/Music_bg.mp3
+- Assets/Res/FolderMode/Audio/Sound_UnlockShip.wav
+- Assets/Res/FolderMode/Audio/Music_MonsterBattle.wav
+- Assets/Res/FolderMode/Audio/Sound_Seagull1.wav
+- Assets/Res/FolderMode/Audio/Sound_UnlockLand.wav
+- Assets/Res/FolderMode/Audio/Sound_ButtonClick.wav
+- Assets/Res/FolderMode/Audio/Sound_Coin.wav
+Dependencies: []

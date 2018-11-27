@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1471888540
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 20c69b0b56b7b358fa91acbf7633a238
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 31d6cfe0d16ae931b73c59d7e0c089c0
+HashAppended: 0
+ClassTypes: []
+Assets:
+- Assets/Res/FileMode/Scenes/Game.unity
+Dependencies:
+- D:/UnityProjects/Fish/UnityProject/Fish/Assets/StreamingAssets/game/res/foldermode/sprites.bundle
+- D:/UnityProjects/Fish/UnityProject/Fish/Assets/StreamingAssets/game/res/foldermode/prefabs/leveltileprefabs.bundle
+- D:/UnityProjects/Fish/UnityProject/Fish/Assets/StreamingAssets/game/res/foldermode/prefabs/patterns.bundle
+- D:/UnityProjects/Fish/UnityProject/Fish/Assets/StreamingAssets/game/res/foldermode/prefabs/entity/player.bundle

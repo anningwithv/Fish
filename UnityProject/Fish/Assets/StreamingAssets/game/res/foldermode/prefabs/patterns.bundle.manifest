@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 743110926
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7edd05d3b49edf4fd672f27e3f71e8a3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 587df6274185209dcaff8a88c6cdcd14
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6416cda6ee3e010469dd41bb4a6799a5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e0b8f5875de95ea42b226730c2376fc2, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/FolderMode/Prefabs/Patterns/Pattern_1.prefab
+Dependencies:
+- D:/UnityProjects/Fish/UnityProject/Fish/Assets/StreamingAssets/game/res/foldermode/prefabs/leveltileprefabs.bundle

@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 3414966757
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3970fa648bad7be5436a73b70f2ad253
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b903b61d9e58700ff51294d836d65185
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6416cda6ee3e010469dd41bb4a6799a5, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/FolderMode/Prefabs/LevelTiles/BoardWaterTile.prefab
+- Assets/Res/FolderMode/Prefabs/LevelTiles/BoardNormalTile.prefab
+Dependencies:
+- D:/UnityProjects/Fish/UnityProject/Fish/Assets/StreamingAssets/game/res/foldermode/prefabs/leveltileprefabs.bundle

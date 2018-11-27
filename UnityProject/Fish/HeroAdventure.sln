@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeroAdventure", "HeroAdventure.csproj", "{7D7ABA55-EA70-ABD1-1C16-FD8A211D8F63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeroAdventure.Editor", "HeroAdventure.Editor.csproj", "{E04E27A2-8F45-A8BB-FD56-0F4DBCC2F0EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D7ABA55-EA70-ABD1-1C16-FD8A211D8F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D7ABA55-EA70-ABD1-1C16-FD8A211D8F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D7ABA55-EA70-ABD1-1C16-FD8A211D8F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D7ABA55-EA70-ABD1-1C16-FD8A211D8F63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E04E27A2-8F45-A8BB-FD56-0F4DBCC2F0EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E04E27A2-8F45-A8BB-FD56-0F4DBCC2F0EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E04E27A2-8F45-A8BB-FD56-0F4DBCC2F0EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E04E27A2-8F45-A8BB-FD56-0F4DBCC2F0EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

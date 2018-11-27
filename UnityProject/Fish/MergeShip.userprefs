@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="MergeShip.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Qarth\Scripts\Engine\UI\UGUI\UIRoot.cs">
+    <Files>
+      <File FileName="Assets\Qarth\Scripts\Engine\UI\UGUI\UIRoot.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Game\GamePlay\Mgr\GameplayMgr.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

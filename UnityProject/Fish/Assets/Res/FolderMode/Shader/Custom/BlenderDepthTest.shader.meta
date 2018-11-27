@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 309e8b5d4a9083e41973b0a094ef3a49
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _FoamTexture: {fileID: 2800000, guid: 5798ded558355430c8a9b13ee12a847c, type: 3}
+  userData: 
+  assetBundleName: res/foldermode/shader/custom.bundle
+  assetBundleVariant: 

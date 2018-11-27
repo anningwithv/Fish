@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 558938675
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4c97752faf0695f2d948dde60a475ad3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0bb4c37c915d5352389eeb93c1a3b27a
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/FolderMode/Font/308-CAI978_0.TTF
+- Assets/Res/FolderMode/Font/966-CAI978_0.TTF
+- Assets/Res/FolderMode/Font/Ui_text_font.TTF
+- Assets/Res/FolderMode/Font/368-CAI978_0.TTF
+Dependencies: []

@@ -1,0 +1,31 @@
+﻿ID	Key
+string	string
+Id	Key
+Ads_Not_Ready	Album
+Day	
+Hours	:
+Minute	:
+Second	
+UI_EARNED	Були
+UI_AWAY	Коли ти пішов
+UI_COLLECT	Збирати
+UI_DoubleCollect	Збирати X 2-5
+UI_BONUS	Бонус
+UI_CLOSE	Вимикати
+UI_LEVELUP	Оновлення
+UI_LEVEL	Рівень
+Ultima	останній
+Super	супер
+RtaSpeed	Швидкість
+Velocity	Доставка
+Tooth	Зуби
+Gravity	Тяжкість
+BallCount	Зірки Номер
+FanForce	Вітер Сила
+FanRatio	Частоти
+Lucky	Лаки
+Durable	Міцний
+UI_DoubleTapTitle	Технологія
+UI_TAPTIPS	Натисніть на екрані для додаткових виводу 15 секунд
+UI_UseTap	Використання
+UI_DOUBLETAP	Чорні технології

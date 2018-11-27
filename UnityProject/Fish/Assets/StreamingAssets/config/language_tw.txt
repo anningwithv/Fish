@@ -1,0 +1,30 @@
+﻿ID	Key
+string	string
+Id	Key
+Day	:
+Hours	:
+Minute	:
+Second	
+UI_EARNED	獲得
+UI_AWAY	在你離開的時候
+UI_COLLECT	收集
+UI_DoubleCollect	收集 x 2-5
+UI_BONUS	獎金
+UI_CLOSE	關閉
+UI_LEVELUP	升級
+UI_LEVEL	等級
+Ultima	究極
+Super	超級
+RtaSpeed	轉速
+Velocity	運速
+Tooth	齒數
+Gravity	重力
+BallCount	星星數
+FanForce	風力
+FanRatio	風率
+Lucky	幸運
+Durable	耐久
+UI_DoubleTapTitle	黑科技
+UI_TAPTIPS	點擊屏幕額外產出產品15秒
+UI_UseTap	使用
+UI_DOUBLETAP	黑科技

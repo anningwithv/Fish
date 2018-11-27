@@ -1,0 +1,65 @@
+ManifestFileVersion: 0
+CRC: 3272454760
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: res/filemode/scenes/game.bundle
+      Dependencies:
+        Dependency_0: res/foldermode/sprites.bundle
+        Dependency_1: res/foldermode/prefabs/leveltileprefabs.bundle
+        Dependency_2: res/foldermode/prefabs/patterns.bundle
+        Dependency_3: res/foldermode/prefabs/entity/player.bundle
+    Info_1:
+      Name: res/foldermode/material/default.bundle
+      Dependencies:
+        Dependency_0: res/foldermode/shader/default.bundle
+    Info_2:
+      Name: res/foldermode/shader/custom.bundle
+      Dependencies: {}
+    Info_3:
+      Name: res/foldermode/shader/spine.bundle
+      Dependencies: {}
+    Info_4:
+      Name: res/foldermode/shader/default.bundle
+      Dependencies: {}
+    Info_5:
+      Name: res/foldermode/shader/spine/utility.bundle
+      Dependencies: {}
+    Info_6:
+      Name: res/foldermode/audio.bundle
+      Dependencies: {}
+    Info_7:
+      Name: res/foldermode/font.bundle
+      Dependencies: {}
+    Info_8:
+      Name: res/filemode/scenes/posteffect.bundle
+      Dependencies: {}
+    Info_9:
+      Name: res/filemode/colorconfig/colorconfig.bundle
+      Dependencies: {}
+    Info_10:
+      Name: res/foldermode/material/custommaterial.bundle
+      Dependencies:
+        Dependency_0: res/foldermode/shader/custom.bundle
+    Info_11:
+      Name: res/foldermode/sprites.bundle
+      Dependencies: {}
+    Info_12:
+      Name: res/foldermode/prefabs/leveltileprefabs.bundle
+      Dependencies:
+        Dependency_0: res/foldermode/sprites.bundle
+    Info_13:
+      Name: res/foldermode/prefabs/leveltiles.bundle
+      Dependencies:
+        Dependency_0: res/foldermode/prefabs/leveltileprefabs.bundle
+    Info_14:
+      Name: res/foldermode/prefabs/patterns.bundle
+      Dependencies:
+        Dependency_0: res/foldermode/prefabs/leveltileprefabs.bundle
+    Info_15:
+      Name: res/foldermode/prefabs/entity.bundle
+      Dependencies: {}
+    Info_16:
+      Name: res/foldermode/prefabs/entity/player.bundle
+      Dependencies:
+        Dependency_0: res/foldermode/sprites.bundle

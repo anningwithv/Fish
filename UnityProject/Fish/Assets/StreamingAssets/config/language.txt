@@ -1,0 +1,227 @@
+﻿ID	Key
+string	string
+Id	Key
+Talent_TreasureHunt	TreasureHunt
+Talent_TechFirst	TechFirst
+Talent_AdvanceBoat	AdvanceBoat
+Talent_HardWork	HardWork
+Talent_Bargon	Bargon
+Talent_ShipMaster	ShipMaster
+Talent_VoidBoat	VoidBoat
+Talent_SeaConqueror	SeaConqueror
+Talent_FireUp	FireUp
+Talent_GiveMeMore	GiveMeMore
+Talent_MeetSeaLord	MeetSeaLord
+Talent_LandLord	LandLord
+Talent_Discovery	Discovery
+Talent_NewEra	NewEra
+Talent_Des_TreasureHunt	You will find treasure during your journey
+Talent_Des_TechFirst	Constant TP for active sailing
+Talent_Des_AdvanceBoat	Boat income increase
+Talent_Des_HardWork	Extra offline profits
+Talent_Des_Bargon	You can buy a boat with less money
+Talent_Des_ShipMaster	Extra XP for merging boats
+Talent_Des_VoidBoat	You may merge the boat without costing your original boat.
+Talent_Des_SeaConqueror	All profit promote
+Talent_Des_FireUp	You can cause more damage to sea monsters
+Talent_Des_GiveMeMore	Defeat sea monster will give you more reward
+Talent_Des_MeetSeaLord	Come and meet mysterious sea load
+Talent_Des_LandLord	You can unlock island with lower price
+Talent_Des_Discovery	More TP will be provided when unlock an island
+Talent_Des_NewEra	Massive TP for entering a new era
+ShipName_1001	Nitika
+ShipName_1002	Popeye
+ShipName_1003	Lucia
+ShipName_1004	Utopia
+ShipName_1005	Xena
+ShipName_1006	Goliath
+ShipName_1007	Jaded
+ShipName_1008	Zenysis
+ShipName_1009	Venom
+ShipName_1010	Zeus
+ShipName_1011	Curious Lady
+ShipName_1012	Black Pearl
+ShipName_1013	Magenta
+ShipName_1014	Odyssey
+ShipName_1015	TreasureHunter
+ShipName_1016	Octopussy
+ShipName_1017	Devil Trigger
+ShipName_1018	Goliath
+ShipName_1019	Whisper
+ShipName_1020	Cersei
+ShipName_1021	Wildflower
+ShipName_1022	Unnamed
+ShipName_1023	Silver
+ShipName_1024	Moonlight
+ShipName_1025	Apache
+ShipName_1026	Wave Buster
+ShipName_1027	Proteus
+ShipName_1028	Pink Rose
+ShipName_1029	Tall Goddess
+ShipName_1030	Vanilla Sky
+HarborName_1001	Atuan
+HarborName_1002	Banoi
+HarborName_1003	Haoua
+HarborName_1004	Miramar
+HarborName_1005	Necochea
+HarborName_1006	Rada Tilly
+HarborName_1007	Monte Hermoso
+HarborName_1008	Tamarama
+HarborName_1009	Bredene
+HarborName_1010	Cerros
+HarborName_1011	Solano
+HarborName_1012	Montezuma
+HarborName_2001	Dargenk
+HarborName_2002	Haleakaloa
+HarborName_2003	Taba
+HarborName_2004	Harku
+HarborName_2005	Kubija
+HarborName_2006	Paralepa
+HarborName_2007	Tallinn
+HarborName_2008	Valkla
+HarborName_2009	Joaoru
+HarborName_2010	Rondinara
+HarborName_2011	Deauville
+HarborName_2012	Fajara
+HarborName_2013	Rhodes
+HarborName_2014	Nosara
+HarborName_3001	Matool
+HarborName_3002	Sahrani
+HarborName_3003	Dahab
+HarborName_3004	Monterrico
+HarborName_3005	Ti Mouillage
+HarborName_3006	Myrtleville
+HarborName_3007	Barleycove
+HarborName_3008	Bundoran
+HarborName_3009	Aranuka
+HarborName_3010	Saulkrasti
+HarborName_3011	Sri Tujoh
+HarborName_3012	Xemxija
+HarborName_3013	Kamenovo
+HarborName_3014	Sutomore
+HarborName_3015	Petrovac
+HarborName_3016	Noordwijk
+HarborName_3017	Matapouri
+HarborDes_1001	HarborDescription1001
+HarborDes_1002	HarborDescription1002
+HarborDes_1003	SPECIALITY:ORE
+HarborDes_1004	SPECIALITY:GEM
+HarborDes_1005	SPECIALITY:TALC
+HarborDes_1006	SPECIALITY:CALCITE
+HarborDes_1007	SPECIALITY:TOPAZ
+HarborDes_1008	SPECIALITY:ORTHOCLASE
+HarborDes_1009	SPECIALITY:GYPSUM
+HarborDes_1010	SPECIALITY:FLUORITE
+HarborDes_1011	SPECIALITY:APATITE
+HarborDes_1012	SPECIALITY:CORUNDUM
+HarborDes_2001	HarborDescription2001
+HarborDes_2002	HarborDescription2002
+HarborDes_2003	SPECIALITY:CATTLE
+HarborDes_2004	SPECIALITY:WHEAT
+HarborDes_2005	SPECIALITY:SOYBEAN
+HarborDes_2006	SPECIALITY:POTATO
+HarborDes_2007	SPECIALITY:GRAPE
+HarborDes_2008	SPECIALITY:BANANAS
+HarborDes_2009	SPECIALITY:SUGARCANE
+HarborDes_2010	SPECIALITY:COTTON
+HarborDes_2011	SPECIALITY:MANGOS
+HarborDes_2012	SPECIALITY:ONIONS
+HarborDes_2013	SPECIALITY:RUBBER
+HarborDes_2014	SPECIALITY:ORANGE
+HarborDes_3001	HarborDescription3001
+HarborDes_3002	HarborDescription3002
+HarborDes_3003	SPECIALITY:YAM
+HarborDes_3004	SPECIALITY:CACAO
+HarborDes_3005	SPECIALITY:STRAWBERRY
+HarborDes_3006	SPECIALITY:CARROT
+HarborDes_3007	SPECIALITY:LEMON
+HarborDes_3008	SPECIALITY:COCONUT
+HarborDes_3009	SPECIALITY:SHEEP
+HarborDes_3010	SPECIALITY:PEANUT
+HarborDes_3011	SPECIALITY:OLIVE
+HarborDes_3012	SPECIALITY:WALNUT
+HarborDes_3013	SPECIALITY:CUCUMBER
+HarborDes_3014	SPECIALITY:PEACH
+HarborDes_3015	SPECIALITY:TURKEY
+HarborDes_3016	SPECIALITY:TANGERINE
+HarborDes_3017	SPECIALITY:ASPARAGUS
+NewEraPanel_Title	EVOLUTION
+MainGamePanel_IncomeUnit	SEC
+MainGamePanel_SpeedBoostButton	SPEEDX2
+MainGamePanel_ShopButton	SHOP
+TalentPanel_Title	ACADEMY
+ShopPanel_GemTab	GEM
+ShopPanel_MemberTab	MEMBER
+ShopPanel_PropTab	PROP
+ShopPanel_GemTitle	GEM SHOP
+ShopPanel_ADsTitle	ADS
+ShopPanel_PropTitle	MARKET
+ShopProp_Telescope	FIND MORE TREATURE + {0}%
+ShopProp_CraftBoat	BUY BOAT WITH {0}% Discount
+ShopProp_Cargo	Gain {0}% EXTRA Profit
+ShipPanel_Title	SHIPYARD
+ShipPanel_ShipProperty1	SPEED
+ShipPanel_ShipProperty2	VALUE
+OfflinePanel_Title	OFFLINE EARNING
+OfflinePanel_ADButton	GETX2
+OfflinePanel_DiamondButton	GETX3
+OfflinePanel_Tip	WELCOME BACK, CAP!
+Panel_TapClose	TAP TO CLOSE
+NewShipPanel_Title	NEW SHIP
+ShipFreeUpgradePanel_Title	FREE UPGRADE
+NewShipPanel_NextTip	NEXT SHIP
+PlayerUpgradePanel_Title	CONGRATULATIONS
+PlayerUpgradePanel_Bonus	UPGRADE BONUS
+PlayerUpgradePanel_ConfirmButton	OK
+OptionPanel_Title	OPTION
+BoostPanel_Title	BOOST
+BoostPanel_SpeedText	SPEED X2
+BoostPanel_TimeText	ADD ANOTHER {0} SECONDS
+BoostPanel_FreeButton	FREE
+BattleWinPanel_TimeText	TIME
+BattleWinPanel_DamageText	DAMAGE
+BattleWinPanel_BtnOK	OK
+BattleWinPanel_BtnAD	X2
+PlayerInfoPanel_Title	PLAYER INFO
+PlayerinfoPanel_PlayTIme	PLAY TIME
+PlayerInfoPanel_PlayerLv	PLAYER LEVEL
+PlayerInfoPanel_TotalIncome	TOTAL INCOME
+PlayerInfoPanel_IncomeRate	TRANSPORT CAPACITY
+PlayerInfoPanel_BoatCount	TOTAL BOAT
+PlayerInfoPanel_HarborCount	UNLOCK ISLAND
+PlayerInfoPanel_TechPoint	TECH POINT
+PlayerInfoPanel_Treasure	TREASUREBOX
+ShipHandbookPanel_Title	HANDBOOK
+SettingPanel_Title	SETTING
+SettingPanel_Music	BG MUSIC
+SettingPanel_Sound	SOUND
+SettingPanel_About	ABOUT
+HarborPanel_GolgUnEnough	NOT ENOUGH GOLD
+BattleLosePanel_ADText	WATCH AN AD TO GAIN EXTRA TIME
+MemberPanel_Title	MEMBER
+MemberPanel_TPText	T.P + {0}
+MemberPanel_ShipCapacityText	SHIP + {0}
+MemberPanel_GoldIncreaseText	+ {0} %
+MemberPanel_OfflineText	OFFLINE REVENUE
+MemberPanel_OnlineText	ONLINE INCOME
+MemberPanel_DiamondText	GET {0} DIAMONDS EVERYDAY
+MemberPanel_Button	START FREE TRIAL
+NoAdWarning	ADS NOT AVAILABLE, PLEASE TRY LATER
+GoalListPanel_BtnmMaxIsland	COMING SOON
+GoalListPanel_BtnText	EVOLVE
+AboutText	Term of Use: https://shipmergerprivacypolicy.blogspot.com/2018/10/ship-merger-terms-of-use.html  Privacy Policy: https://shipmergerprivacypolicy.blogspot.com/2018/10/ship-merger-privacy-policy.html
+Evolve_StoneToBronze	EVOLVING WORLD FROM STONE AGE TO BRONZE AGE, ARE YOU READY?
+Evolve_BronzeToViking	EVOLVING WORLD FROM BRONZE AGE TO VIKING AGE, ARE YOU READY?
+NewEraPanel_Cancle	CANCLE
+ShopPanel_DiamondLack	Diamond is Lack
+Guide_Des_01	Hi,Captain！Look at that sea,and adventure is out there!
+Guide_Des_02	But first,we need a ship!
+Guide_Des_03	Lucky lucky,see what we found --free upgrade!
+Guide_Des_04	Hey,see that island over there,let`t go and check out.
+Guide_Des_05	Wow,the island provide something unique.
+Guide_Des_06	Our ship value increase from 1 to 1.1.Wonderful!
+Guide_Des_07	Alert,alert!Monster incoming!
+Guide_Des_08	Attack!Attack!Attack!
+Guide_Des_09	We have collected enough TP point,let`s see what they can do!
+Guide_Des_10	Go back and watch closely to the sea.
+Guide_Des_11	You can also take ship back any time you want!

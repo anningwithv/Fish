@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeShip", "MergeShip.csproj", "{703D5776-6D8D-C523-B337-318E28880278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeShip.Editor", "MergeShip.Editor.csproj", "{03AB0F83-56D5-ED5F-26D7-F5B5DE2C85E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{703D5776-6D8D-C523-B337-318E28880278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{703D5776-6D8D-C523-B337-318E28880278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{703D5776-6D8D-C523-B337-318E28880278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{703D5776-6D8D-C523-B337-318E28880278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03AB0F83-56D5-ED5F-26D7-F5B5DE2C85E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03AB0F83-56D5-ED5F-26D7-F5B5DE2C85E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03AB0F83-56D5-ED5F-26D7-F5B5DE2C85E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03AB0F83-56D5-ED5F-26D7-F5B5DE2C85E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

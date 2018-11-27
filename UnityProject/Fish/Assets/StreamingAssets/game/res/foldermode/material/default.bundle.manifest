@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 620623274
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 26e8e600ec237e6d03bfc1e5b521c8f5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c5855eae7bf95040a896b507074b4366
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/FolderMode/Material/Default/Particle.mat
+- Assets/Res/FolderMode/Material/Default/BallFireMat.mat
+- Assets/Res/FolderMode/Material/Default/Mat_Gray.mat
+- Assets/Res/FolderMode/Material/Default/Mask.mat
+- Assets/Res/FolderMode/Material/Default/SpriteDefault.mat
+- Assets/Res/FolderMode/Material/Default/cut.jpg
+- Assets/Res/FolderMode/Material/Default/Guide.mat
+- Assets/Res/FolderMode/Material/Default/Fire2.mat
+Dependencies:
+- E:/Work/UnityProjects/HeroAdventure/UnityProject/HeroAdventure/Assets/StreamingAssets/game/res/foldermode/shader/default.bundle

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="gb2312"?>
+<PatternSettingsContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <patternPath>Res/FolderMode/Prefabs/Patterns/</patternPath>
+  <levelTilePath>Res/FolderMode/Prefabs/LevelTiles/</levelTilePath>
+  <tiledSize>1</tiledSize>
+  <gridX>40</gridX>
+  <playerYOffset>0</playerYOffset>
+</PatternSettingsContainer>

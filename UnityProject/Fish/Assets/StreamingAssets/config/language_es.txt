@@ -1,0 +1,30 @@
+﻿ID	Key
+string	string
+Id	Key
+Day	:
+Hours	:
+Minute	:
+Second	
+UI_EARNED	adquirir
+UI_AWAY	Cuando te fuiste
+UI_COLLECT	allegar
+UI_DoubleCollect	allegar x 2-5
+UI_BONUS	premio
+UI_CLOSE	cerrar
+UI_LEVELUP	La actualización
+UI_LEVEL	clase
+Ultima	último
+Super	superior
+RtaSpeed	giratoria
+Velocity	Tempo
+Tooth	diente
+Gravity	gravedad
+BallCount	Las estrellas
+FanForce	viento
+FanRatio	velocidad 
+Lucky	sobrevivir
+Durable	durar
+UI_DoubleTapTitle	Tecnología
+UI_TAPTIPS	Haga clic en la pantalla para producir UN producto adicional de 15 segundos
+UI_UseTap	uso
+UI_DOUBLETAP	Tecnología

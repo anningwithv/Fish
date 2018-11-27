@@ -1,0 +1,30 @@
+﻿ID	Key
+string	string
+Id	Key
+Day	:
+Hours	:
+Minute	:
+Second	
+UI_EARNED	obtenir
+UI_AWAY	À ton départ
+UI_COLLECT	rassembler
+UI_DoubleCollect	rassembler x 2-5
+UI_BONUS	prime
+UI_CLOSE	fermer
+UI_LEVELUP	Upgrade
+UI_LEVEL	degré
+Ultima	Ultimates
+Super	Super
+RtaSpeed	tour 
+Velocity	vitesse
+Tooth	engrenage
+Gravity	pesanteur
+BallCount	étoile
+FanForce	Force du vent
+FanRatio	soufflan
+Lucky	Tocade
+Durable	durable
+UI_DoubleTapTitle	Technologie
+UI_TAPTIPS	Cliquez sur l’écran pour un produit supplémentaire de 15 secondes
+UI_UseTap	l’utilisation
+UI_DOUBLETAP	Technologie

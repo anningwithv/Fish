@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "799290362861",
+    "firebase_url": "https://shipmerger.firebaseio.com",
+    "project_id": "shipmerger",
+    "storage_bucket": "shipmerger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799290362861:android:09a39a0de15c08bd",
+        "android_client_info": {
+          "package_name": "io.liongames.mergeship"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799290362861-m1a4ba3kpfgfe35slus040e35b7u7b6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpE7HotD19XLNcB553L72Nqb4cQ6zjqUA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

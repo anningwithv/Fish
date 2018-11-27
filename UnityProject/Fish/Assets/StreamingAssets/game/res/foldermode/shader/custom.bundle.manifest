@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 758947911
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5b10420162e40f97da2f8969b43e5d37
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6370d3f9de9eca57f523bce048404a46
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/FolderMode/Shader/Custom/HPBar.shader
+- Assets/Res/FolderMode/Shader/Custom/WaveShader.shader
+- Assets/Res/FolderMode/Shader/Custom/StylizedWater.shader
+- Assets/Res/FolderMode/Shader/Custom/StylizedWaterMobile.shader
+- Assets/3rdAssets/Spine/spine-unity/Modules/SkeletonGraphic/Shaders/Spine-SkeletonGraphic.shader
+- Assets/Res/FolderMode/Shader/Custom/ImageSilhouette.shader
+- Assets/Res/FolderMode/Shader/Custom/BlenderDepthTest.shader
+- Assets/Res/FolderMode/Shader/Custom/ShipTrailShader.shader
+- Assets/Res/FolderMode/Shader/Custom/UIClipImage.shader
+Dependencies: []

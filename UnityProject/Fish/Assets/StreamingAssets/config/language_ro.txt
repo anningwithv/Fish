@@ -1,0 +1,31 @@
+﻿ID	Key
+string	string
+Id	Key
+Ads_Not_Ready	Album
+Day	
+Hours	:
+Minute	:
+Second	
+UI_EARNED	câștigat
+UI_AWAY	în timp ce erați departe
+UI_COLLECT	colectarea
+UI_DoubleCollect	colectarea x 2-5
+UI_BONUS	primă
+UI_CLOSE	închide
+UI_LEVELUP	nivel în sus
+UI_LEVEL	nivel
+Ultima	Ultima
+Super	super
+RtaSpeed	rotație
+Velocity	viteză
+Tooth	dinte
+Gravity	gravitate
+BallCount	cantitate
+FanForce	vânt forță
+FanRatio	frecvență
+Lucky	norocos
+Durable	durabil
+UI_DoubleTapTitle	tehnologie
+UI_TAPTIPS	Faceți clic pe ecran pentru a produce produse suplimentare timp de 15 secunde
+UI_UseTap	Use
+UI_DOUBLETAP	tehnologie

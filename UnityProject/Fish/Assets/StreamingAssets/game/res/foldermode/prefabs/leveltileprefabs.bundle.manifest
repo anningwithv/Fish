@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 2383037321
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dc207c3485441344e0ee647d60d390a6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 74f3a0b121e93c18ced2973acebb9771
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 97b64420f7c3cff4681ead4398850923, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 558d5363bde88ac4b942898774185d8f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/FolderMode/Prefabs/LevelTilePrefabs/BoardNormal.prefab
+- Assets/Res/FolderMode/Prefabs/LevelTilePrefabs/BoardWater.prefab
+Dependencies:
+- D:/UnityProjects/Fish/UnityProject/Fish/Assets/StreamingAssets/game/res/foldermode/sprites.bundle

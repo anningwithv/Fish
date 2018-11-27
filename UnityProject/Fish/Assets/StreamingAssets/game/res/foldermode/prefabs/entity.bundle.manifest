@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1170708433
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 84da939a6f63b78064cc20b90d2f74e9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b8d874a51b49e96de263dba908eacb8c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2ba50ba02f71993439d3a6e816da83e7, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/FolderMode/Prefabs/Entity/World.prefab
+Dependencies: []

@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3475253361
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e4ca583ba0275d21b8b7f184a3c2fae1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0dad505d7539d7b24e55b5fa7bbb541e
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: bf4009d623feba04cab10c4fa3fc1bea, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/FileMode/ColorConfig/ColorConfig.asset
+Dependencies: []

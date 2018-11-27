@@ -1,0 +1,8 @@
+﻿ID	Trigger	CommonParam	RequireGuideId	JumpTrigger
+int	string	string	int	string
+Id	Trigger	CommonParam	RequireGuideId	JumpTrigger
+1	UINodeVisibleTrigger:#0;	UINodeFinder:MainGamePanel;	0	
+2	UINodeVisibleTrigger:#0;	UINodeFinder:MainGamePanel;	1	
+3	UINodeVisibleTrigger:#0;	UINodeFinder:MainGamePanel;	2	IslandHasBeenUnlockedTrigger
+4	UINodeVisibleTrigger:#0;	UINodeFinder:MainGamePanel;	3	MonsterGuideShowedTrigger
+5	UINodeVisibleTrigger:#0;	UINodeFinder:MainGamePanel;	4	TPGuideShowedTrigger
