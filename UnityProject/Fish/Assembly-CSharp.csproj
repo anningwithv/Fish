@@ -1,0 +1,1263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{6A2D954F-4AA6-1F01-5206-CBAC4AA1B21B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2017_4_10;UNITY_2017_4;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouch\Plugins\Components\EasyTouchTrigger.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickBase.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickDrag.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickEnterOverExist.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickLongTap.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickPinch.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickSwipe.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickTap.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickTouch.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickTwist.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouch\Plugins\Engine\BaseFinger.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouch\Plugins\Engine\EasyTouch.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouch\Plugins\Engine\EasyTouchInput.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouch\Plugins\Engine\ECamera.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouch\Plugins\Engine\Finger.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouch\Plugins\Engine\Gesture.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouch\Plugins\Engine\TwoFingerGesture.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouchControls\Component\ETCSetDirectActionTransform.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouchControls\Plugins\ComponentExtensions.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouchControls\Plugins\ETCArea.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouchControls\Plugins\ETCAxis.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouchControls\Plugins\ETCBase.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouchControls\Plugins\ETCButton.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouchControls\Plugins\ETCDPad.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouchControls\Plugins\ETCInput.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouchControls\Plugins\ETCJoystick.cs" />
+     <Compile Include="Assets\3rdAssets\EasyTouchBundle\EasyTouchControls\Plugins\ETCTouchPad.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\AttackSpineboy.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\DataAssetsFromExportsExample.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\DraggableTransform.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\FootSoldierExample.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Getting Started Scripts\BasicPlatformerController.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Getting Started Scripts\ConstrainedCamera.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Getting Started Scripts\Raptor.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Getting Started Scripts\SpineBeginnerTwo.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Getting Started Scripts\SpineBlinkPlayer.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Getting Started Scripts\SpineboyBeginnerInput.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Getting Started Scripts\SpineboyBeginnerModel.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Getting Started Scripts\SpineboyBeginnerView.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Getting Started Scripts\SpineboyTargetController.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Getting Started Scripts\TransitionDictionaryExample.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Goblins.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\HandleEventWithAudioExample.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\HurtFlashEffect.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\MaterialPropertyBlockExample.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Mix and Match Character Customize\EquipAssetExample.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Mix and Match Character Customize\EquipButtonExample.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Mix and Match Character Customize\EquipsVisualsComponentExample.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Mix and Match Character Customize\EquipSystemExample.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\MixAndMatch.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\MixAndMatchGraphic.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\RaggedySpineboy.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\ReloadSceneOnKeyDown.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Rotator.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Sample Components\BoneLocalOverride.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Sample Components\CombinedSkin.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Sample Components\Legacy\AtlasRegionAttacher.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Sample Components\Legacy\CustomSkin.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Sample Components\Legacy\SpriteAttacher.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Sample Components\Sample VertexEffects\JitterEffectExample.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Sample Components\Sample VertexEffects\TwoByTwoTransformEffectExample.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Sample Components\SkeletonAnimationMulti\SkeletonAnimationMulti.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Sample Components\SkeletonColorInitialize.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Sample Components\SlotTintBlackFollower.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Sample Components\SpineEventUnityHandler.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\SpawnFromSkeletonDataExample.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\Spineboy.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\SpineboyBodyTilt.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\SpineboyFacialExpression.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\SpineboyFootplanter.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\SpineboyFreeze.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\SpineboyPole.cs" />
+     <Compile Include="Assets\3rdAssets\Spine Examples\Scripts\SpineGauge.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\Animation.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\AnimationState.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\AnimationStateData.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\Atlas.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\Attachments\AtlasAttachmentLoader.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\Attachments\Attachment.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\Attachments\AttachmentLoader.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\Attachments\AttachmentType.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\Attachments\BoundingBoxAttachment.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\Attachments\ClippingAttachment.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\Attachments\MeshAttachment.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\Attachments\PathAttachment.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\Attachments\PointAttachment.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\Attachments\RegionAttachment.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\Attachments\VertexAttachment.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\BlendMode.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\Bone.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\BoneData.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\Event.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\EventData.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\ExposedList.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\IConstraint.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\IkConstraint.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\IkConstraintData.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\IUpdatable.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\Json.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\MathUtils.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\PathConstraint.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\PathConstraintData.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\Skeleton.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\SkeletonBinary.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\SkeletonBounds.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\SkeletonClipping.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\SkeletonData.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\SkeletonJson.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\Skin.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\Slot.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\SlotData.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\TransformConstraint.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\TransformConstraintData.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-csharp\Triangulator.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Asset Types\AnimationReferenceAsset.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Asset Types\AtlasAsset.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Asset Types\EventDataReferenceAsset.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Asset Types\RegionlessAttachmentLoader.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Asset Types\SkeletonDataAsset.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Components\BoneFollower.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Components\PointFollower.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Components\SkeletonAnimation.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Components\SkeletonAnimator.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Components\SkeletonRenderer.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\ISkeletonAnimation.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Mesh Generation\DoubleBuffered.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Mesh Generation\SpineMesh.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Mesh Generation\Unused\ArraysMeshGenerator.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Mesh Generation\Unused\ArraysSimpleMeshGenerator.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Mesh Generation\Unused\ArraysSubmeshedMeshGenerator.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Mesh Generation\Unused\ArraysSubmeshSetMeshGenerator.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Mesh Generation\Unused\DoubleBufferedMesh.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Mesh Generation\Unused\ISimpleMeshGenerator.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Mesh Generation\Unused\ISubmeshedMeshGenerator.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\AnimationTools\AnimationTools.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\AttachmentTools\AttachmentTools.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\BoundingBoxFollower\BoundingBoxFollower.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\CustomMaterials\SkeletonRendererCustomMaterials.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\Ghost\SkeletonGhost.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\Ghost\SkeletonGhostRenderer.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\Ragdoll\SkeletonRagdoll.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\Ragdoll\SkeletonRagdoll2D.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\SkeletonGraphic\BoneFollowerGraphic.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\SkeletonGraphic\SkeletonGraphic.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\SkeletonGraphic\SkeletonGraphicMirror.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\SkeletonRenderSeparator\SkeletonPartsRenderer.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\SkeletonRenderSeparator\SkeletonRenderSeparator.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityEyeConstraint.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityGroundConstraint.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityKinematicShadow.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\SlotBlendModes\SlotBlendModes.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\Timeline\PlayableHandle Component\SkeletonAnimationPlayableHandle.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\Timeline\PlayableHandle Component\SpinePlayableHandleBase.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateBehaviour.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateClip.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateMixerBehaviour.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateTrack.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipBehaviour.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipClip.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipMixerBehaviour.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipTrack.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\TK2D\SpriteCollectionAttachmentLoader.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\YieldInstructions\WaitForSpineAnimationComplete.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\YieldInstructions\WaitForSpineEvent.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\Modules\YieldInstructions\WaitForSpineTrackEntryEnd.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\SkeletonExtensions.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\SkeletonUtility\SkeletonUtility.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\SkeletonUtility\SkeletonUtilityBone.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\SkeletonUtility\SkeletonUtilityConstraint.cs" />
+     <Compile Include="Assets\3rdAssets\Spine\spine-unity\SpineAttributes.cs" />
+     <Compile Include="Assets\Qarth\Plugins\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\ByteBuffer\ByteBuffer.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\CommandNode\CommandGroup.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\CommandNode\CommandNode.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\CommandNode\CommandSequence.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\ConstDefine\DelegateDefine.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\ConstDefine\LayerDefine.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\DataStruct\BinaryHeap\BinaryHeap.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\DataStruct\BinaryHeap\IBinaryHeapElement.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\DataStruct\BinaryHeap\Test\BinaryHeapTest.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\DataStruct\BinarySearchTree\BinarySearchTree.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\DataStruct\BinarySearchTree\IBinarySearchTreeElement.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\DataStruct\BinarySearchTree\Test\BinarySearchTreeTest.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\DataStruct\IData.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\DataStruct\ITestUnit.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\DataStruct\List\IList.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\DataStruct\List\LinkedList.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\DataStruct\List\Stack.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\DataStruct\List\Test\LinkedListTest.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\DataStruct\Main.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\Disposable\DisposableObject.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\ERunner\ERunner.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\ExecuteNode\ExecuteNode.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\ExecuteNode\ExecuteNodeContainer.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\FSM\FSMState.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\FSM\FSMStateFactory.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\FSM\FSMStateMachine.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\FSM\FSMStateTransition.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\Helper\DateFormatHelper.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\Helper\EncryptUtil.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\Helper\GameObjectHelper.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\Helper\Helper.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\Helper\LogHelper.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\Helper\TimeHelper.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\Pool\GameObjectPool.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\Pool\GameObjectPoolGroup.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\Pool\GameObjectPoolMgr.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\Pool\IGameObjectPoolStrategy.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\Pool\ListPool.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\Pool\ObjectPool.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\Pool\ObjectPoolObserver.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\Pool\PoolObjectComponent.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\ProjectConfig\ProjectPathConfig.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\RefCounter\RefCounter.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\Safety\EFloat.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\Safety\EInt.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\Singleton\ISingleton.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\Singleton\MonoSingleton.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\Singleton\TMonoSingleton.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\Singleton\TMonoSingletonAttribute.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Base\Singleton\TSingleton.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\App\AppConfig.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Audio\AudioClipData.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Audio\AudioMgr.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Audio\AudioUnit.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Camera\CameraSizeAdjuster.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Component\AbstractActor.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Component\AbstractCom.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Component\AbstractMonoCom.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Component\ComOrderDefine.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Component\ICom.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\DataRecord\Common\ItemPair.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\DataRecord\Common\ItemPairHandler.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\DataRecord\DataClassHandler.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\DataRecord\DataRecord_Default.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\DataRecord\IDataRecord.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Debugger\DebugLogger.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Debugger\Log.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Debugger\TimeDebugger.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Event\EngineEventID.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Event\EventRegisterHelper.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Event\EventSystem.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Gameplay\Skill\AbstractSkill.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Gameplay\Skill\AbstractSkillSystem.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Gameplay\Skill\ISkill.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Gameplay\Skill\ISkillReleaser.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Gameplay\Skill\SkillInfo.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Inputer\IInputter.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Inputer\KeyboardInputter.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Inputer\KeyCodeEventInfo.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Inputer\KeyCodeTracker.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\IO\SerializeHelper.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Math\BezierUtils.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Math\BigIntHelper.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Math\MathHelper.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Math\RandomHelper.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Math\Rect2D.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Math\Vector2Int.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Math\Vector3Int.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Path\FileMgr.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Path\FilePath.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Path\PathHelper.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\AssetDataTable\ABUnit.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\AssetDataTable\AssetData.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\AssetDataTable\AssetDataPackage.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\AssetDataTable\AssetDataTable.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Core\IEnumeratorTask.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Core\Res\AbstractRes.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Core\Res\AssetBundleRes.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Core\Res\AssetRes.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Core\Res\BaseRes.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Core\Res\HotUpdateRes.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Core\Res\InternalRes.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Core\Res\IRes.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Core\Res\LocalAudioRes.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Core\Res\NetImageRes.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Core\Res\NetTextRes.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Core\Res\SceneRes.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Core\ResFactory.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Core\ResLoader\DefaultLoaderStrategy.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Core\ResLoader\IResLoader.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Core\ResLoader\IResLoaderStrategy.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Core\ResLoader\ResLoader.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Core\ResLoader\UILoaderStrategy.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Core\ResMgr.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\ResUpdate\ResPackage.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\ResUpdate\ResPackageHandler.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\ResUpdate\ResUpdateConfig.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\ResUpdate\ResUpdateMgr.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\ResUpdate\ResUpdateRecord.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Tools\ABUnitHelper.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Tools\ResDownloader\HttpDownloaderMgr.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Tools\ResDownloader\IHttpDownloader.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Tools\ResDownloader\ResDownloader.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Tools\ResDownloader\WWWDownloader.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Tools\ResHolder\ResHolder.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ResSystem\Tools\ResHolder\ShaderFinder.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\SceneMgr\SceneMgr.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\TableMgr\Reader\DataStream.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\TableMgr\Reader\DataStream_Txt.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\TableMgr\Reader\TxtReader.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\TableMgr\TableConfig.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\TableMgr\TableHelper.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\TableMgr\TableMgr.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\TableMgr\TableReadThreadWork.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\TableMgr\TDUniversallyTable.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Text\RegexHelper.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Thread\IThreadHandler.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Thread\MainThreadHandler.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Thread\Task\AbstractTask.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Thread\Task\CalculateResultTask.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Thread\Task\IThreadTask.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Thread\Task\ResultTask.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Thread\TaskLoop.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Thread\Tester\ThreadTaskTester.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Thread\ThreadHandler.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Thread\ThreadMgr.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Timer\Test\TimerTest.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Timer\TimeItem.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Timer\Timer.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Timer\TimerHelper.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Tools\CaptureHelper.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\Tools\CaptureHelperTester.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\UI\EngineUI.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\UI\Helper\EffectMask.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\UI\Helper\ResolutionHelper.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\UI\Helper\SortingOrderObserver.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\UI\Helper\TweenHelper.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\UI\Helper\UIEffectHelper.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\UI\Helper\UIFinder.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\UI\Helper\UIHelper.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\UI\Helper\UITools.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\UI\IPanelEventLogger.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\UI\PanelChain.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\UI\PanelInfo.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\UI\UGUI\AbstractAnimPanel.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\UI\UGUI\AbstractPage.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\UI\UGUI\AbstractPanel.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\UI\UGUI\AbstractUIElement.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\UI\UGUI\IView.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\UI\UGUI\LuaPanel.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\UI\UGUI\UIRoot.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\UI\UIDataTable.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\UI\UIMgr.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\World\WorldMgr.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\World\WorldRoot.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Engine\ZipMgr\ZipMgr.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\App\AbstractApplicationMgr.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\App\AppLoopMgr.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Client\AbstractClient.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Component\BigInterger.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Component\ColorConfig.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Component\FollowTarget.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Component\PositionTrigger.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Gameplay\IGameplay.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\Command\AbstractGuideCommand.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\Command\ButtonCommand.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\Command\ButtonHackCommand.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\Command\EventPauseCommand.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\Command\GuideHandCommand.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\Command\HighlightUICommand.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\Command\OpenPanelCommand.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\Command\PlayAudioCommand.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\Guide.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\GuideCommandFactory.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\GuideMgr.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\GuideStep.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\GuideTriggerFactory.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\Helper\GuideConfigParamProcess.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\Helper\IUINodeFinder.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\Helper\MonoFuncCall.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\Helper\UINodeFinder.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\RuntimeParam\IRuntimeParam.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\RuntimeParam\RuntimeParamFactory.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\Trigger\EmptyTrigger.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\Trigger\EventTrigger.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\Trigger\GuideTriggerHandler.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\Trigger\IGuideTrigger.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\Trigger\TopPanelTrigger.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\Trigger\UINodeVisibleTrigger.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\UI\GuideHandPanel.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\UI\GuideHighlightMask.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\UI\HighlightMaskPanel.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Guide\UI\RectTransformHelper.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\I18\AutoTranslation.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\I18\I18Mgr.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Memory\MemoryMgr.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Module\AbstractModuleMgr.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Module\Modules\AbstractModule.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Module\Modules\AbstractMonoModule.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Module\Modules\AbstractStartProcess.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Module\Modules\IModule.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Render\Mesh\MeshHolder.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Render\Mesh\MeshUpdater.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Servers\AbstractServer.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Sign\SignSystem.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Tables\AbstractTableModule.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Tables\Extend\Common\TDConstExtend.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Tables\Extend\Common\TDConstTableExtend.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Tables\Extend\Guide\TDGuideExtend.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Tables\Extend\Guide\TDGuideStepExtend.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Tables\Extend\Guide\TDGuideStepTableExtend.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Tables\Extend\Guide\TDGuideTableExtend.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Tables\Extend\Language\TDLanguageExtend.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Tables\Extend\Language\TDLanguageTableExtend.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Tables\Generate\Common\TDConst.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Tables\Generate\Common\TDConstTable.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Tables\Generate\Guide\TDGuide.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Tables\Generate\Guide\TDGuideStep.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Tables\Generate\Guide\TDGuideStepTable.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Tables\Generate\Guide\TDGuideTable.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Tables\Generate\Language\TDLanguage.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\Tables\Generate\Language\TDLanguageTable.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Anim\BubbleAnim.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Anim\CircleRotateAnim.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Anim\CloudAnim.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Anim\FlipAnim.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Anim\NumberUpdateAnim.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Anim\PositionTweenBehaviour.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Anim\RotateForever.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Anim\SpriteAnim.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Anim\StarAnim.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Anim\TweenBehaviour.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Button\PopButton.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Button\SoundButton.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Button\ToggleExtend.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Common\AsyncTexture.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Common\AutoDisableBehaviour.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Common\PositionAdjuster.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Common\RectTransformModify.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Common\SizeAdjuster.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Common\TextCountChanger.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Common\UICenterHelper.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Common\UIMeshModify.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\DoTweenExtend\DoTweenExtend.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\DoTweenExtend\ScrollRectAutoAdjustPosition.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Effect\AlphaGradient.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Effect\BookEffect.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Effect\Gradient.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Effect\TestMeshEffect.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Emoji\EmojiText.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\ListView\InitOnStart.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\ListView\ListView.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\ListView\LoopScrollRect.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\ModelShow3D\ModelShow3D.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\ModelShow3D\ModelShow3DMgr.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\ModelShow3D\RenderTextureConfig.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\NetImageView\NetImageView.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\PopupMenu\CustomPopopMeau.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\PopupMenu\PopupAction.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\PopupMenu\PopupMenu.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\RaycastArea\RaycastArea.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\Share\ShareHideComponment.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\SpriteHandler\AsyncSpriteRenderer.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\SpriteHandler\SpritesData.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\SpriteHandler\SpritesHandler.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\StepProgressBar\MultiStepProgressBar.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\StepProgressBar\ProgressPositionSetter.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\StepProgressBar\StepProgressBar.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\TimeLabel\TimeLabel.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\TipsUI\TipsBehaviour.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\TipsUI\TipsPanel.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\UListView\IUListItemView.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\UListView\IUListView.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\UListView\ScrollRectProtect.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\UListView\UGridListView.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\UListView\UListItemView.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\UListView\USimpleDiffSizeListView.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\UListView\USimpleListView.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\WorldUI\WorldUI.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\WorldUI\WorldUIBinding.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\WorldUI\WorldUIBindPos.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Component\WorldUI\WorldUIBindTransform.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Panels\ExitPanel\ExitPanel.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Panels\FloatMessage\FloatMessage.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Panels\FloatMessage\FloatMessageItem.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Panels\FloatMessage\FloatMessagePanel.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Panels\MaskPanel\MaskPanel.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Panels\MsgBox\MsgBox.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Panels\MsgBox\MsgBoxPanel.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Transition\Actions\ColorFadeTransition.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Transition\Actions\FadeInOut\FadeInOutAnim.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Transition\Actions\FadeInOut\SwitchAnimShaderEffect.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Transition\ITransitionAction.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Transition\ITransitionHandler.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Transition\ITransitionProgroess.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Transition\TransitionHelper.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\UI\Transition\TransitionPanel.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\VecorEngine\Core\IVectorData.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\VecorEngine\Core\VectorData.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\VecorEngine\Core\VectorEngine.cs" />
+     <Compile Include="Assets\Qarth\Scripts\Framework\VecorEngine\Tester\VectorEngineTester.cs" />
+     <Compile Include="Assets\Scripts\Game\App\ApplicationMgr.cs" />
+     <Compile Include="Assets\Scripts\Game\App\AppLoader.cs" />
+     <Compile Include="Assets\Scripts\Game\ConstDefine\Define.cs" />
+     <Compile Include="Assets\Scripts\Game\ConstDefine\EventID.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\Base\EntityController.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\Base\EntityData.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\Base\EntityView.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\Base\EventObj.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\Base\Interfaces\IEventObserver.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\Base\Interfaces\IGravityBody.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\Base\Interfaces\IInputObserver.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\Camera\CameraRotateCoordinate.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\Camera\MainCamera.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\Camera\MainCameraInputHandler.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\OrbitalMovement\GravityAttractor.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\OrbitalMovement\GravityBody.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\OrbitalMovement\Path\Path.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\OrbitalMovement\Path\PathMgr.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\OrbitalMovement\Path\WayPoint.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\Ship\ShipController.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\Ship\ShipData.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\Ship\ShipPoolComponent.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\Ship\ShipView.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\World\WorldController.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\World\WorldData.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\World\WorldInputHandler.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\World\WorldLoader.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Entity\World\WorldView.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Game\GameData.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Game\GameDataHandler.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Mgr\EffectControl.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Mgr\GameplayMgr.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Mgr\GameplayRoot.cs" />
+     <Compile Include="Assets\Scripts\Game\GamePlay\Mgr\InputMgr.cs" />
+     <Compile Include="Assets\Scripts\Game\Module\ColorModule\ColorModule.cs" />
+     <Compile Include="Assets\Scripts\Game\Module\CommonResModule\CommonResModule.cs" />
+     <Compile Include="Assets\Scripts\Game\Module\GameMgr.cs" />
+     <Compile Include="Assets\Scripts\Game\Module\GuideModule\GuideModule.cs" />
+     <Compile Include="Assets\Scripts\Game\Module\InputModule\InputModule.cs" />
+     <Compile Include="Assets\Scripts\Game\Module\StartProcessModule\InitEnvironmentNode.cs" />
+     <Compile Include="Assets\Scripts\Game\Module\StartProcessModule\InitModuleNode.cs" />
+     <Compile Include="Assets\Scripts\Game\Module\StartProcessModule\LoadTableNode.cs" />
+     <Compile Include="Assets\Scripts\Game\Module\StartProcessModule\LoginNode.cs" />
+     <Compile Include="Assets\Scripts\Game\Module\StartProcessModule\StartProcessModule.cs" />
+     <Compile Include="Assets\Scripts\Game\Module\TableModule\TableModule.cs" />
+     <Compile Include="Assets\Scripts\Game\Module\UIDataModule\UIDataModule.cs" />
+     <Compile Include="Assets\Scripts\Game\Module\UIDataModule\UIID.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Extend\Achievement\TDAchievementExtend.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Extend\Achievement\TDAchievementTableExtend.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Extend\Achievement\TDAchievementTypeExtend.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Extend\Achievement\TDAchievementTypeTableExtend.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Extend\ConstType\ConstType.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Extend\Gameplay\TDHarborExtend.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Extend\Gameplay\TDHarborTableExtend.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Extend\Gameplay\TDLevelExtend.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Extend\Gameplay\TDLevelTableExtend.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Extend\Gameplay\TDShipExtend.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Extend\Gameplay\TDShipTableExtend.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Extend\Gameplay\TDTalentExtend.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Extend\Gameplay\TDTalentTableExtend.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Generate\Achievement\TDAchievement.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Generate\Achievement\TDAchievementTable.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Generate\Achievement\TDAchievementType.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Generate\Achievement\TDAchievementTypeTable.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Generate\Gameplay\TDHarbor.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Generate\Gameplay\TDHarborTable.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Generate\Gameplay\TDLevel.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Generate\Gameplay\TDLevelTable.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Generate\Gameplay\TDShip.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Generate\Gameplay\TDShipTable.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Generate\Gameplay\TDTalent.cs" />
+     <Compile Include="Assets\Scripts\Game\Tables\Generate\Gameplay\TDTalentTable.cs" />
+     <Compile Include="Assets\Scripts\Game\Tools\BigIntToShortHelper.cs" />
+     <Compile Include="Assets\Scripts\Game\Tools\CalculateVertsAndTris.cs" />
+     <Compile Include="Assets\Scripts\Game\Tools\ColorGradientHelper.cs" />
+     <Compile Include="Assets\Scripts\Game\Tools\CombineMesh.cs" />
+     <Compile Include="Assets\Scripts\Game\Tools\DepthTextureRender.cs" />
+     <Compile Include="Assets\Scripts\Game\Tools\LogTools.cs" />
+     <Compile Include="Assets\Scripts\Game\Tools\MeasureUnitHelper.cs" />
+     <Compile Include="Assets\Scripts\Game\Tools\PrefabLightmapData.cs" />
+     <Compile Include="Assets\Scripts\Game\Tools\ShowFPS.cs" />
+     <Compile Include="Assets\Scripts\Game\UIScripts\Common\UICenterHelper.cs" />
+     <Compile Include="Assets\Scripts\Game\UIScripts\GamingPanel\MainGamePanel.cs" />
+     <Compile Include="Assets\Scripts\Game\UIScripts\Items\MainGame\ShipMerge\ShipMergeBtn.cs" />
+     <Compile Include="Assets\Scripts\Game\UIScripts\Items\MainGame\ShipMerge\ShipMergeBtnContainer.cs" />
+     <Compile Include="Assets\Scripts\Game\UIScripts\Items\MainGame\ShipMerge\ShipMergeBtnContainerMgr.cs" />
+     <Compile Include="Assets\Scripts\Game\UIScripts\LogoPanel\LogoPanel.cs" />
+     <Compile Include="Assets\Scripts\Game\UIScripts\RatePanel\RatePanel.cs" />
+     <Compile Include="Assets\Scripts\Game\UIScripts\UILoader.cs" />
+     <Compile Include="Assets\SDKAdapter\AbstractSDKAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\AdmobAdsAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\AdmobAdsConfig.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\AdmobBannerHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\AdmobInterstitialHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\AdmobRewardedVideoHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\AdmobRewardVideoInstance.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Api\AdFailedToLoadEventArgs.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Api\AdLoader.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Api\AdPosition.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Api\AdRequest.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Api\AdSize.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Api\BannerView.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Api\CustomNativeEventArgs.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Api\CustomNativeTemplateAd.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Api\Gender.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Api\InterstitialAd.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Api\Mediation\MediationExtras.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Api\MobileAds.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Api\Reward.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Api\RewardBasedVideoAd.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Common\DummyClient.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Common\IAdLoaderClient.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Common\IBannerClient.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Common\ICustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Common\IInterstitialClient.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Common\IMobileAdsClient.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Common\IRewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Common\MobileAdsEventExecutor.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Common\Utils.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Platforms\Android\AdLoaderClient.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Platforms\Android\BannerClient.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Platforms\Android\CustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Platforms\Android\InterstitialClient.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Platforms\Android\MobileAdsClient.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Platforms\Android\RewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Platforms\Android\Utils.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Platforms\GoogleMobileAdsClientFactory.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Platforms\iOS\AdLoaderClient.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Platforms\iOS\BannerClient.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Platforms\iOS\CustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Platforms\iOS\Externs.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Platforms\iOS\InterstitialClient.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Platforms\iOS\MobileAdsClient.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Platforms\iOS\MonoPInvokeCallbackAttribute.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Platforms\iOS\RewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Admob\GoogleMobileAds\Platforms\iOS\Utils.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\AdsConfig.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\AdsMgr.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\AppLovin\AppLovin\AppLovin.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\AppLovin\AppLovin\AppLovinEvents.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\AppLovin\ApplovinAdsAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\AppLovin\ApplovinAdsConfig.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\AppLovin\ApplovinBannerHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\AppLovin\ApplovinEventCenter.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\AppLovin\ApplovinInterstitialHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\AppLovin\ApplovinInterstitialInstance.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\AppLovin\ApplovinRewardVideoHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\AppLovin\ApplovinRewardVideoInstance.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Core\AbstractAdsAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Core\AdPlacement.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Core\Handler\AdBannerHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Core\Handler\AdFullScreenHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Core\Handler\AdHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Core\Handler\NativeAdHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Core\IAdAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Core\Interface\AdBannerInterface.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Core\Interface\AdFullScreenInterface.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Core\Interface\AdInterface.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Facebook\AudienceNetwork\Library\AdChoices.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Facebook\AudienceNetwork\Library\AdHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Facebook\AudienceNetwork\Library\AdManager.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Facebook\AudienceNetwork\Library\AdPanel.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Facebook\AudienceNetwork\Library\AdQuad.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Facebook\AudienceNetwork\Library\AdSettings.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Facebook\AudienceNetwork\Library\AdUtility.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Facebook\AudienceNetwork\Library\AdView.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Facebook\AudienceNetwork\Library\InterstitialAd.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Facebook\AudienceNetwork\Library\NativeAd.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Facebook\AudienceNetwork\Library\RewardedVideoAd.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Facebook\AudienceNetwork\Library\SdkVersion.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Facebook\FacebookAdsAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Facebook\FacebookAdsConfig.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Facebook\FacebookBannerHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Facebook\FacebookInterstitialHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Facebook\FacebookNativeAdHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Facebook\FacebookRewardVideoAdHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\IronSource\IronSourceAdsAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\IronSource\IronSourceAdsConfig.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\IronSource\IronSourceInterstitialHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\IronSource\IronSourceRewardVideoHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\IronSource\Scripts\AndroidAgent.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\IronSource\Scripts\iOSAgent.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\IronSource\Scripts\IronSource.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\IronSource\Scripts\IronSourceConfig.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\IronSource\Scripts\IronSourceError.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\IronSource\Scripts\IronSourceEvents.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\IronSource\Scripts\IronSourceIAgent.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\IronSource\Scripts\IronSourceJSON.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\IronSource\Scripts\IronSourcePlacement.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\IronSource\Scripts\IronSourceSegment.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\IronSource\Scripts\UnsupportedPlatformAgent.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\MoPub\MoPub\Internal\MoPubAndroid.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\MoPub\MoPub\Internal\MoPubAndroidBanner.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\MoPub\MoPub\Internal\MoPubAndroidInterstitial.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\MoPub\MoPub\Internal\MoPubAndroidRewardedVideo.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\MoPub\MoPub\Internal\MoPubBinding.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\MoPub\MoPub\MoPub.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\MoPub\MoPub\MoPubManager.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\MoPub\MoPub\ThirdParty\MiniJSON.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\MoPub\MoPubAdsAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\MoPub\MoPubAdsConfig.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\MoPub\MoPubBannerHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\MoPub\MoPubDemoGUI.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\MoPub\MoPubEventListener.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\MoPub\MoPubInterstitialHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\MoPub\MoPubRewardVideoHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\PolyADSDK\ADAdapter\PolyAdsAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\PolyADSDK\ADAdapter\PolyAdsBannerHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\PolyADSDK\ADAdapter\PolyAdsConfig.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\PolyADSDK\ADAdapter\PolyAdsInterstitialHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\PolyADSDK\ADAdapter\PolyAdsRewardedVideoHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\PolyADSDK\PolyADCall.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\PolyADSDK\PolyADSDK.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\PolyADSDK\PolyADSDKGameObject.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\PolyADSDK\PolyBaseApi.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\PolyADSDK\PolyMiniJSON.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\PolyADSDK\PolyPostBuild.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\PolyADSDK\UPConstant.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\PolyADSDK\UPSDK.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\TestUI\AdTestPanel.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\TestUI\NativeBannerTestPanel.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Tools\AdAnalysisMgr.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Tools\AdBannerView.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Tools\AdDisplayer.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Tools\AdEventLogger.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Tools\NativeAdHandlerPanel.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Tools\NativeAdPanel.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Tools\NativeAdView.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Unity\UnityAdsAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Unity\UnityAdsConfig.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Unity\UnityRewardVideoHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Vungle\VungleAdsAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Vungle\VungleAdsConfig.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Vungle\VungleInterstitialHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Vungle\VungleRewardVideoHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\Ads\Yomob\YomobAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\Bugly\BuglyConfig.cs" />
+     <Compile Include="Assets\SDKAdapter\Bugly\BuglyMgr.cs" />
+     <Compile Include="Assets\SDKAdapter\Bugly\Plugins\BuglyPlugins\BuglyAgent.cs" />
+     <Compile Include="Assets\SDKAdapter\Bugly\Plugins\BuglyPlugins\BuglyCallback.cs" />
+     <Compile Include="Assets\SDKAdapter\Bugly\Plugins\BuglyPlugins\BuglyInit.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\Appsflyer\AppsflyerDataAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\Appsflyer\AppsflyerScripts\AFInAppEvents.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\Appsflyer\AppsflyerScripts\AppsFlyer.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\Appsflyer\AppsflyerScripts\AppsFlyerTrackerCallbacks.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\DataAnalysisConfig.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\DataAnalysisMgr.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\Dataeye\DataeyeAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\Facebook\FacebookDataAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\Facebook\FacebookSDK\Examples\Scripts\ConsoleBase.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\Facebook\FacebookSDK\Examples\Scripts\LogView.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\Facebook\FacebookSDK\Examples\Scripts\MenuBase.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\Facebook\FacebookSDK\Examples\Scripts\SubMenus\AccessTokenMenu.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\Facebook\FacebookSDK\Examples\Scripts\SubMenus\AppEvents.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\Facebook\FacebookSDK\Examples\Scripts\SubMenus\AppInvites.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\Facebook\FacebookSDK\Examples\Scripts\SubMenus\AppLinks.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\Facebook\FacebookSDK\Examples\Scripts\SubMenus\AppRequests.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\Facebook\FacebookSDK\Examples\Scripts\SubMenus\DialogShare.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\Facebook\FacebookSDK\Examples\Scripts\SubMenus\GraphRequest.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\Facebook\FacebookSDK\Examples\Scripts\SubMenus\MainMenu.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\Facebook\FacebookSDK\Examples\Scripts\SubMenus\Pay.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\Firebase\FirebaseDataAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\IDataAnalysisAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\RamAnalysisScripts\DataAnalysisDefine.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\UMeng\TestCase\TestCase.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\UMeng\UmengAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\UMeng\UmengGameAnalytics\Example\Example.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\UMeng\UmengGameAnalytics\Scripts\Analytics.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\UMeng\UmengGameAnalytics\Scripts\GA.cs" />
+     <Compile Include="Assets\SDKAdapter\DataAnalysis\UMeng\UmengGameAnalytics\Scripts\UmengManager.cs" />
+     <Compile Include="Assets\SDKAdapter\Define\SDKEventID.cs" />
+     <Compile Include="Assets\SDKAdapter\Define\SDKUI.cs" />
+     <Compile Include="Assets\SDKAdapter\Firebase\FirebaseDataWrap.cs" />
+     <Compile Include="Assets\SDKAdapter\Firebase\FirebaseRemoteConfig.cs" />
+     <Compile Include="Assets\SDKAdapter\Firebase\FirebaseRemoteConfigMgr.cs" />
+     <Compile Include="Assets\SDKAdapter\InAppPurchase\Android\PurchaseAdapterAndroid.cs" />
+     <Compile Include="Assets\SDKAdapter\InAppPurchase\iOS\PurchaseAdapterIOS.cs" />
+     <Compile Include="Assets\SDKAdapter\InAppPurchase\PurchaseAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\InAppPurchase\PurchaseMgr.cs" />
+     <Compile Include="Assets\SDKAdapter\InAppPurchase\Table\Extend\Purchase\TDPurchaseExtend.cs" />
+     <Compile Include="Assets\SDKAdapter\InAppPurchase\Table\Extend\Purchase\TDPurchaseTableExtend.cs" />
+     <Compile Include="Assets\SDKAdapter\InAppPurchase\Table\Generate\Purchase\TDPurchase.cs" />
+     <Compile Include="Assets\SDKAdapter\InAppPurchase\Table\Generate\Purchase\TDPurchaseTable.cs" />
+     <Compile Include="Assets\SDKAdapter\ISDKAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\RemoteConfig\RemoteConfigMgr.cs" />
+     <Compile Include="Assets\SDKAdapter\RemoteConfig\Tools\CrossExtensionPanel.cs" />
+     <Compile Include="Assets\SDKAdapter\RemoteConfig\Tools\CrossExtensionView.cs" />
+     <Compile Include="Assets\SDKAdapter\SDKAdapterConfig.cs" />
+     <Compile Include="Assets\SDKAdapter\SDKBOX\iap\Assets\IAP.cs" />
+     <Compile Include="Assets\SDKAdapter\SDKBOX\iap\Sample\PurchaseHandler.cs" />
+     <Compile Include="Assets\SDKAdapter\SDKBOX\SDKBOX\Assets\Json.cs" />
+     <Compile Include="Assets\SDKAdapter\SDKBOX\SDKBOX\Assets\PluginBase.cs" />
+     <Compile Include="Assets\SDKAdapter\SDKBOX\SDKBOX\Assets\SDKBOX.cs" />
+     <Compile Include="Assets\SDKAdapter\SDKConfig.cs" />
+     <Compile Include="Assets\SDKAdapter\SDKMgr.cs" />
+     <Compile Include="Assets\SDKAdapter\Security\OfficialVersionAdPanel.cs" />
+     <Compile Include="Assets\SDKAdapter\Security\SecurityMgr.cs" />
+     <Compile Include="Assets\SDKAdapter\Social\Android\AndroidSocialAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\Social\DefauleSocialAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\Social\FaceBook\Command\FBCommand.cs" />
+     <Compile Include="Assets\SDKAdapter\Social\FaceBook\Command\FBLoginCommand.cs" />
+     <Compile Include="Assets\SDKAdapter\Social\FaceBook\Command\FBRefreshFriendsCommand.cs" />
+     <Compile Include="Assets\SDKAdapter\Social\FaceBook\Command\FBRefreshRankScoreCommand.cs" />
+     <Compile Include="Assets\SDKAdapter\Social\FaceBook\Command\FBRefreshSelfScoreCommand.cs" />
+     <Compile Include="Assets\SDKAdapter\Social\FaceBook\FacebookSocialAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\Social\FaceBook\Helper\FBHelper.cs" />
+     <Compile Include="Assets\SDKAdapter\Social\FaceBook\HelperUI\FBLoginPanel.cs" />
+     <Compile Include="Assets\SDKAdapter\Social\FaceBook\HelperUI\FBLogoutPanel.cs" />
+     <Compile Include="Assets\SDKAdapter\Social\FaceBook\HelperUI\FBPhotoView.cs" />
+     <Compile Include="Assets\SDKAdapter\Social\FaceBook\HelperUI\FBPlayerInfoPanel.cs" />
+     <Compile Include="Assets\SDKAdapter\Social\FaceBook\HelperUI\FBTestPanel.cs" />
+     <Compile Include="Assets\SDKAdapter\Social\FaceBook\HelperUI\Rank\FBRankCell.cs" />
+     <Compile Include="Assets\SDKAdapter\Social\FaceBook\HelperUI\Rank\FBRankPanel.cs" />
+     <Compile Include="Assets\SDKAdapter\Social\FaceBook\Res\FBPhotoRes.cs" />
+     <Compile Include="Assets\SDKAdapter\Social\FaceBook\UserInfo\FacebookUserInfoMgr.cs" />
+     <Compile Include="Assets\SDKAdapter\Social\iOS\IOSSocialAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\Social\ISocialAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\Social\SocialConfig.cs" />
+     <Compile Include="Assets\SDKAdapter\Social\SocialMgr.cs" />
+     <Compile Include="Assets\SDKAdapter\Social\UserInfo\UserInfoBase.cs" />
+     <Compile Include="Assets\SDKAdapter\Tables\Extend\Sdk\TDAdConfigExtend.cs" />
+     <Compile Include="Assets\SDKAdapter\Tables\Extend\Sdk\TDAdConfigTableExtend.cs" />
+     <Compile Include="Assets\SDKAdapter\Tables\Extend\Sdk\TDAdPlacementExtend.cs" />
+     <Compile Include="Assets\SDKAdapter\Tables\Extend\Sdk\TDAdPlacementTableExtend.cs" />
+     <Compile Include="Assets\SDKAdapter\Tables\Extend\Sdk\TDAppConfigExtend.cs" />
+     <Compile Include="Assets\SDKAdapter\Tables\Extend\Sdk\TDAppConfigTableExtend.cs" />
+     <Compile Include="Assets\SDKAdapter\Tables\Extend\Sdk\TDRemoteConfigExtend.cs" />
+     <Compile Include="Assets\SDKAdapter\Tables\Extend\Sdk\TDRemoteConfigTableExtend.cs" />
+     <Compile Include="Assets\SDKAdapter\Tables\Extend\Sdk\TDSocialAdapterExtend.cs" />
+     <Compile Include="Assets\SDKAdapter\Tables\Extend\Sdk\TDSocialAdapterTableExtend.cs" />
+     <Compile Include="Assets\SDKAdapter\Tables\Generate\Sdk\TDAdConfig.cs" />
+     <Compile Include="Assets\SDKAdapter\Tables\Generate\Sdk\TDAdConfigTable.cs" />
+     <Compile Include="Assets\SDKAdapter\Tables\Generate\Sdk\TDAdPlacement.cs" />
+     <Compile Include="Assets\SDKAdapter\Tables\Generate\Sdk\TDAdPlacementTable.cs" />
+     <Compile Include="Assets\SDKAdapter\Tables\Generate\Sdk\TDAppConfig.cs" />
+     <Compile Include="Assets\SDKAdapter\Tables\Generate\Sdk\TDAppConfigTable.cs" />
+     <Compile Include="Assets\SDKAdapter\Tables\Generate\Sdk\TDRemoteConfig.cs" />
+     <Compile Include="Assets\SDKAdapter\Tables\Generate\Sdk\TDRemoteConfigTable.cs" />
+     <Compile Include="Assets\SDKAdapter\Tables\Generate\Sdk\TDSocialAdapter.cs" />
+     <Compile Include="Assets\SDKAdapter\Tables\Generate\Sdk\TDSocialAdapterTable.cs" />
+     <Compile Include="Assets\SDKAdapter\Utility\UtilityMgr.cs" />
+     <None Include="Assets\StreamingAssets\config\language_fr.txt" />
+     <None Include="Assets\3rdAssets\Spine Examples\Spine\Eyes\eyes.atlas.txt" />
+     <None Include="Assets\Res\FolderMode\Shader\Spine\Utility\HiddenPass.shader" />
+     <None Include="Assets\Res\FolderMode\Spine\UI\ShipSpeedUp\shep.atlas.txt" />
+     <None Include="Assets\SDKAdapter\Firebase\m2repository\com\google\firebase\firebase-config-unity\maven-metadata.xml" />
+     <None Include="Assets\Res\FolderMode\ArtPakage\Shaders\ToonBasic.shader" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Spine-Skeleton-Fill.shader" />
+     <None Include="Assets\StreamingAssets\config\guide_step.txt" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpritePixelLighting.cginc" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Sprite\SpriteVertexLighting.cginc" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Sprite\SpriteShadows.cginc" />
+     <None Include="Assets\Res\FolderMode\Shader\Default\CutOut.shader" />
+     <None Include="Assets\StreamingAssets\config\achievement_type.txt" />
+     <None Include="Assets\Res\FolderMode\Shader\Default\Fire.shader" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteShadows.cginc" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Sprite\SpritePixelLighting.cginc" />
+     <None Include="Assets\StreamingAssets\config\Harbor.txt" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Sprite\SpriteLighting.cginc" />
+     <None Include="Assets\Res\FolderMode\Spine\UI\MainGameGold\gold.atlas.txt" />
+     <None Include="Assets\StreamingAssets\config\language_pt.txt" />
+     <None Include="Assets\3rdAssets\Spine Examples\Spine\Gauge\Gauge.atlas.txt" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\SkeletonGraphic\Shaders\Spine-SkeletonGraphic-TintBlack.shader" />
+     <None Include="Assets\SDKAdapter\Firebase\Plugins\link.xml" />
+     <None Include="Assets\Qarth\Plugins\Demigiant\DOTweenPro\readme.txt" />
+     <None Include="Assets\StreamingAssets\config\Ship.txt" />
+     <None Include="Assets\3rdAssets\Spine Examples\Spine\FootSoldier\FS_White.atlas.txt" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Sprite\ShaderShared.cginc" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\CustomMaterials\SkeletonRendererCustomMaterials.txt" />
+     <None Include="Assets\StreamingAssets\config\language_uk.txt" />
+     <None Include="Assets\3rdAssets\Spine Examples\Spine\Dragon\license.txt" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Straight Alpha\Spine-Straight-Skeleton-Tint.shader" />
+     <None Include="Assets\3rdAssets\Spine Examples\Spine\Hero\license.txt" />
+     <None Include="Assets\StreamingAssets\config\language_tw.txt" />
+     <None Include="Assets\3rdAssets\Spine Examples\Spine\Goblins\goblins.atlas.txt" />
+     <None Include="Assets\Res\FolderMode\Shader\Default\PTGuideShader.shader" />
+     <None Include="Assets\3rdAssets\EasyTouchBundle\EasyTouchControls\ReleaseNotes.txt" />
+     <None Include="Assets\3rdAssets\Spine Examples\Spine\Strechyman\stretchyman-diffuse-pma.atlas.txt" />
+     <None Include="Assets\Res\FolderMode\Shader\Default\PTMask.shader" />
+     <None Include="Assets\Res\FolderMode\Shader\Default\PTGray.shader" />
+     <None Include="Assets\Res\FolderMode\Spine\UI\ShopManHead\ren-ui1.atlas.txt" />
+     <None Include="Assets\StreamingAssets\config\guide.txt" />
+     <None Include="Assets\Res\FolderMode\ArtPakage\Shaders\LocalFog_Add.shader" />
+     <None Include="Assets\Qarth\Plugins\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\3rdAssets\Spine Examples\Spine\Raptor\raptor.atlas.txt" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteLighting.cginc" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\SlotBlendModes\Spine-Skeleton-PMA-Screen.shader" />
+     <None Include="Assets\3rdAssets\Spine Examples\Spine\spineboy-unity\spineboy.atlas.txt" />
+     <None Include="Assets\SDKAdapter\Ads\Facebook\AudienceNetwork\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\3rdAssets\EasyTouchBundle\EasyTouchControls\Documentation\Version 2.0.txt" />
+     <None Include="Assets\SDKAdapter\Firebase\m2repository\com\google\firebase\firebase-analytics-unity\maven-metadata.xml" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Sprite\SpriteUnlit.cginc" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteUnlit.cginc" />
+     <None Include="Assets\Res\FolderMode\Shader\Custom\WaveShader.shader" />
+     <None Include="Assets\3rdAssets\Spine Examples\Spine\FootSoldier\license.txt" />
+     <None Include="Assets\StreamingAssets\config\language_ru.txt" />
+     <None Include="Assets\Res\FolderMode\ArtPakage\Shaders\StylizedWater.shader" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\version.txt" />
+     <None Include="Assets\StreamingAssets\config\language_de.txt" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Sprite\SpritesPixelLit.shader" />
+     <None Include="Assets\SDKAdapter\ThirdLibs\Plugins\Android\com.google.firebase.firebase-iid-16.2.0\AndroidManifest.xml" />
+     <None Include="Assets\3rdAssets\EasyTouchBundle\EasyTouch\_Documentation\How to migrate from EasyTouch 4.X.txt" />
+     <None Include="Assets\SDKAdapter\ThirdLibs\Plugins\Android\com.google.firebase.firebase-iid-16.2.0\third_party_licenses.txt" />
+     <None Include="Assets\3rdAssets\Spine Examples\Spine\Raggedy Spineboy\Raggedy Spineboy.atlas.txt" />
+     <None Include="Assets\3rdAssets\EasyTouchBundle\Readme.txt" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Spine-Skeleton-Tint.shader" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Sprite\SpritesUnlit.shader" />
+     <None Include="Assets\StreamingAssets\config\Level.txt" />
+     <None Include="Assets\Qarth\Plugins\Demigiant\readme_DOTweenPro.txt" />
+     <None Include="Assets\Res\FolderMode\Shader\Spine\Utility\Hidden-Spine-Bones.shader" />
+     <None Include="Assets\StreamingAssets\config\social_adapter.txt" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Sprite\SpritesVertexLit.shader" />
+     <None Include="Assets\SDKAdapter\Ads\IronSource\Plugins\Android\IronSource\AndroidManifest.xml" />
+     <None Include="Assets\StreamingAssets\config\language_zh.txt" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Ghost\Shaders\Spine-Special-Skeleton-Ghost.shader" />
+     <None Include="Assets\StreamingAssets\config\const.txt" />
+     <None Include="Assets\Qarth\Plugins\Demigiant\DemiLib\Core\DemiLib.xml" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteVertexLighting.cginc" />
+     <None Include="Assets\StreamingAssets\config\app_config.txt" />
+     <None Include="Assets\StreamingAssets\config\purchase.txt" />
+     <None Include="Assets\StreamingAssets\config\language.txt" />
+     <None Include="Assets\Res\FolderMode\Spine\UI\ShopVip\vip.atlas.txt" />
+     <None Include="Assets\SDKAdapter\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
+     <None Include="Assets\3rdAssets\Spine Examples\Spine\Dragon\dragon.atlas.txt" />
+     <None Include="Assets\SDKAdapter\Ads\Admob\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Sprite\CameraDepthNormalsTexture.shader" />
+     <None Include="Assets\Res\FolderMode\Shader\Spine\Spine-Skeleton-TintBlack.shader" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Sprite\CGIncludes\ShaderShared.cginc" />
+     <None Include="Assets\SDKAdapter\Ads\AppLovin\AppLovin\AppLovin Readme.txt" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\SkeletonGraphic\Shaders\Spine-SkeletonGraphic.shader" />
+     <None Include="Assets\Res\FolderMode\Shader\Spine\Spine-Skeleton.shader" />
+     <None Include="Assets\StreamingAssets\config\remote_config.txt" />
+     <None Include="Assets\StreamingAssets\config\achievement.txt" />
+     <None Include="Assets\SDKAdapter\ThirdLibs\Plugins\Android\com.google.firebase.firebase-iid-16.2.0\R.txt" />
+     <None Include="Assets\SDKAdapter\DataAnalysis\Facebook\FacebookSDK\link.xml" />
+     <None Include="Assets\Qarth\Plugins\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\AudienceNetwork\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\StreamingAssets\config\ad_config.txt" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Sprite\CameraNormalsTexture.shader" />
+     <None Include="Assets\Res\FolderMode\Spine\UI\MainGameTechPoint\ge.atlas.txt" />
+     <None Include="Assets\3rdAssets\EasyTouchBundle\EasyTouchControls\Issues in button behavior (MAC).txt" />
+     <None Include="Assets\StreamingAssets\config\ad_placement.txt" />
+     <None Include="Assets\StreamingAssets\config\Talent.txt" />
+     <None Include="Assets\Res\FolderMode\Shader\Custom\BlenderDepthTest.shader" />
+     <None Include="Assets\Res\FolderMode\Shader\Custom\ShipTrail.shader" />
+     <None Include="Assets\3rdAssets\EasyTouchBundle\EasyTouch\RealseNotes.txt" />
+     <None Include="Assets\3rdAssets\Spine Examples\Spine\spineboy-pro\spineboy-pro.atlas.txt" />
+     <None Include="Assets\SDKAdapter\ThirdLibs\Plugins\Android\com.google.firebase.firebase-common-16.0.0\AndroidManifest.xml" />
+     <None Include="Assets\3rdAssets\Spine Examples\Spine\Spineunitygirl\Doi.atlas.txt" />
+     <None Include="Assets\SDKAdapter\ThirdLibs\Plugins\Android\proguard-user.txt" />
+     <None Include="Assets\SDKAdapter\ThirdLibs\Plugins\Android\com.google.firebase.firebase-common-16.0.0\proguard.txt" />
+     <None Include="Assets\StreamingAssets\config\language_es.txt" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Sprite\CameraDepthTexture.shader" />
+     <None Include="Assets\Qarth\Plugins\Demigiant\DOTween\DOTween46.xml" />
+     <None Include="Assets\SDKAdapter\Ads\Facebook\AudienceNetwork\Audience Network README.txt" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\SlotBlendModes\Spine-Skeleton-PMA-Multiply.shader" />
+     <None Include="Assets\3rdAssets\Spine Examples\Spine\Hero\hero-pro.atlas.txt" />
+     <None Include="Assets\3rdAssets\EasyTouchBundle\EasyTouch\How to migrate from EasyTouch 4.X.txt" />
+     <None Include="Assets\SDKAdapter\ThirdLibs\Plugins\Android\com.google.firebase.firebase-common-16.0.0\third_party_licenses.txt" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Sprite\CGIncludes\ShaderMaths.cginc" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\SkeletonRenderSeparator\SkeletonRenderSeparator.txt" />
+     <None Include="Assets\Qarth\Plugins\Demigiant\DOTween\DOTween50.xml" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Sprite\SpriteDepthNormalsTexture.shader" />
+     <None Include="Assets\Res\FolderMode\Spine\UI\MainGameDiamond\mas.atlas.txt" />
+     <None Include="Assets\Res\FolderMode\Shader\Spine\Spine-SkeletonLit.shader" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteSpecular.cginc" />
+     <None Include="Assets\3rdAssets\Spine\spine-unity\Modules\Shaders\Straight Alpha\Spine-Straight-Skeleton-Fill.shader" />
+     <None Include="Assets\SDKAdapter\ThirdLibs\Plugins\Android\com.google.firebase.firebase-common-16.0.0\R.txt" />
+     <None Include="Assets\StreamingAssets\config\language_ro.txt" />
+     <None Include="Assets\3rdAssets\Spine Examples\Spine\FootSoldier\Equipment\Equipment.atlas.txt" />
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterInputModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterRendererModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WebModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StyleSheetsModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticlesLegacyModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>D:/Program/Unity2017.4/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>E:/Work/UnityProjects/MergeShip/UnityProject/MergeShip/Assets/Qarth/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJson">
+ <HintPath>E:/Work/UnityProjects/MergeShip/UnityProject/MergeShip/Assets/Qarth/Plugins/LitJson.dll</HintPath>
+ </Reference>
+ <Reference Include="Log">
+ <HintPath>E:/Work/UnityProjects/MergeShip/UnityProject/MergeShip/Assets/Qarth/Plugins/Log.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiLib">
+ <HintPath>E:/Work/UnityProjects/MergeShip/UnityProject/MergeShip/Assets/Qarth/Plugins/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>E:/Work/UnityProjects/MergeShip/UnityProject/MergeShip/Assets/Qarth/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>E:/Work/UnityProjects/MergeShip/UnityProject/MergeShip/Assets/Qarth/Plugins/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>E:/Work/UnityProjects/MergeShip/UnityProject/MergeShip/Assets/Qarth/Plugins/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>E:/Work/UnityProjects/MergeShip/UnityProject/MergeShip/Assets/Qarth/Plugins/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenPro">
+ <HintPath>E:/Work/UnityProjects/MergeShip/UnityProject/MergeShip/Assets/Qarth/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements.Editor">
+ <HintPath>E:/Work/UnityProjects/MergeShip/UnityProject/MergeShip/Assets/SDKAdapter/Ads/Unity/UnityAds/UnityEngine.Advertisements.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity">
+ <HintPath>E:/Work/UnityProjects/MergeShip/UnityProject/MergeShip/Assets/SDKAdapter/DataAnalysis/Facebook/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity.Gameroom">
+ <HintPath>E:/Work/UnityProjects/MergeShip/UnityProject/MergeShip/Assets/SDKAdapter/DataAnalysis/Facebook/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
+ </Reference>
+ <Reference Include="FacebookNamedPipeClient">
+ <HintPath>E:/Work/UnityProjects/MergeShip/UnityProject/MergeShip/Assets/SDKAdapter/DataAnalysis/Facebook/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity.Settings">
+ <HintPath>E:/Work/UnityProjects/MergeShip/UnityProject/MergeShip/Assets/SDKAdapter/DataAnalysis/Facebook/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Compat">
+ <HintPath>E:/Work/UnityProjects/MergeShip/UnityProject/MergeShip/Assets/SDKAdapter/Firebase/Parse/Plugins/Unity.Compat.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Tasks">
+ <HintPath>E:/Work/UnityProjects/MergeShip/UnityProject/MergeShip/Assets/SDKAdapter/Firebase/Parse/Plugins/Unity.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Analytics">
+ <HintPath>E:/Work/UnityProjects/MergeShip/UnityProject/MergeShip/Assets/SDKAdapter/Firebase/Plugins/Firebase.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.App">
+ <HintPath>E:/Work/UnityProjects/MergeShip/UnityProject/MergeShip/Assets/SDKAdapter/Firebase/Plugins/Firebase.App.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Platform">
+ <HintPath>E:/Work/UnityProjects/MergeShip/UnityProject/MergeShip/Assets/SDKAdapter/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.RemoteConfig">
+ <HintPath>E:/Work/UnityProjects/MergeShip/UnityProject/MergeShip/Assets/SDKAdapter/Firebase/Plugins/Firebase.RemoteConfig.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.MiniJson">
+ <HintPath>E:/Work/UnityProjects/MergeShip/UnityProject/MergeShip/Assets/SDKAdapter/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Users/37829/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Users/37829/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>C:/Users/37829/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
